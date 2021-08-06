@@ -32,7 +32,7 @@ class LinkedInPage extends Component {
             Cookie:
               'bcookie="v=2&f1c54d60-429d-42ab-8a91-e068f0d5c4a9"; lang=v=2&lang=en-us; lidc="b=OB49:s=O:r=O:a=O:p=O:g=2749:u=22:x=1:i=1627969915:t=1628052910:v=2:sig=AQHlXeIQ_f4ckAGnGVNOTtiBtuTnfO3-"; bscookie="v=1&2021080305331961b11b51-f8ab-4671-8a3f-6b457114e267AQHQyLfgtJTfY0soFkePvHUNXc4COCrA"',
             "Content-Length": "0",
-            "User-Agent": "PostmanRuntime/7.28.3",
+            // "User-Agent": "PostmanRuntime/7.28.3",
             Accept: "*/*",
             "Accept-Encoding": "gzip, deflate, br",
             Connection: "keep-alive",
