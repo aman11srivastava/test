@@ -23,7 +23,7 @@ class LinkedInPage extends Component {
   fetchToken(data) {
     axios
       .post(
-        `https://www.linkedin.com/oauth/v2/accessToken?client_id=${this.client_id}&client_secret=${this.client_secret}&grant_type=authorization_code&redirect_uri=http://localhost:3000/linkedin&code=${data.code}`,
+        `https://www.linkedin.com/oauth/v2/accessToken?client_id=${this.client_id}&client_secret=${this.client_secret}&grant_type=authorization_code&redirect_uri=https://flamboyant-pare-c16a8b.netlify.app/linkedin&code=${data.code}`,
         {
           headers: {
             "Access-Control-Allow-Origin": "*",
@@ -65,7 +65,7 @@ class LinkedInPage extends Component {
       <div>
         <LinkedIn
           clientId="78l6zz843wr43t"
-          redirectUri="http://localhost:3000/linkedin"
+          redirectUri="https://flamboyant-pare-c16a8b.netlify.app/linkedin"
           scope="r_emailaddress,r_liteprofile"
           onFailure={this.handleFailure}
           onSuccess={this.handleSuccess}
